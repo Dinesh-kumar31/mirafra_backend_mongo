@@ -1,0 +1,29 @@
+{
+  "name": "mirafra_backend_mongo",
+  "version": "1.0.0",
+  "description": "mirafra backend in node and mongodb",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dinesh-kumar31/mirafra_backend_mongo.git"
+  },
+  "author": "dinesh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dinesh-kumar31/mirafra_backend_mongo/issues"
+  },
+  "homepage": "https://github.com/Dinesh-kumar31/mirafra_backend_mongo#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.0",
+    "mongoose": "^6.8.1"
+  }
+}
